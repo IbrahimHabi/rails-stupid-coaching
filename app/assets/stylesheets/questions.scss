@@ -1,0 +1,27 @@
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+ // Defining a variable
+ $gray: #F4F4F4;
+
+ body {
+   background: $gray; // Using this variable
+ }
+
+$light-yellow: rgba(255,201,71,0.5);
+.answers {
+  padding : 5px;
+  margin: 10px;
+  background-color: $light-yellow;
+}
+
+$light-blue : rgba(24,90,219,0.4);
+
+.btn-submit {
+  background-color: $light-blue;
+}
+#form-group {
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px $gray;
+}
